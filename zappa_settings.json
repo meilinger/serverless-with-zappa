@@ -1,6 +1,11 @@
 {
     "dev": {
-        "app_function": "app.app", 
-        "s3_bucket": "meilinger-zappa"
+        "app_function": "app.app",
+        "s3_bucket": "meilinger-zappa",
+        "project_name": "ZappaTalk",
+        "profile_name": "personal",
+        "environment_variables": {
+            "TEST_ENV": "1"
+        }
     }
 }
